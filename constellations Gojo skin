@@ -766,16 +766,14 @@ a.tag,
 a.tag:visited,
 a.tag:link,
 li.added.tag {
-  display: inline-block;
-  padding-top: 2px;
-  padding-right: 7px;
-  padding-bottom: 2px;
-  padding-left: 4px;
-  margin: 2px 0px;
-  border-radius: 8px;
-  border: 1px solid #DEB887;
+  display: inline;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  border: none;
   box-shadow: none;
   color: #DEB887;
+  background: transparent;
 }
 
 h5.fandoms.heading a.tag {
@@ -784,11 +782,12 @@ h5.fandoms.heading a.tag {
 }
 
 .commas li:after {
-  content: "";
+  content: " ";
 }
 
 a.tag:hover {
-  background: #191919;
+  background: transparent;
+  text-decoration: underline;
 }
 
 h2 a.tag {
@@ -822,7 +821,7 @@ ul.tags li a.tag {
 }
 
 .commas li:after {
-  content: "   ";
+  content: " , ";
 }
 
 ul.tags li a:before {
@@ -830,47 +829,50 @@ ul.tags li a:before {
   text-shadow: 0 0 4px #ffe8b4;
 }
 
+ul.tags li.warnings:first-child:before,
+li.warnings + li.relationships:before,
+li.relationships + li.characters:before,
+li.characters + li.freeforms:before,
+li.warnings + li.characters:before,
+li.warnings + li.freeforms:before,
+li.relationships + li.freeforms:before {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #ffe8b4;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #ffe8b4;
+  padding: 2px 8px;
+  margin-right: 4px;
+  color: #FFE4B5;
+  font-variant: small-caps;
+}
+
 ul.tags li.warnings:first-child:before {
   content: "Archive Warnings: ";
-  color: #FFE4B5;
-  font-weight: normal;
-  font-variant: small-caps;
 }
 
 li.warnings + li.relationships:before {
   content: "Relationships: ";
-  color: #FFE4B5;
-  font-variant: small-caps;
 }
 
 li.relationships + li.characters:before {
   content: "Characters: ";
-  color: #FFE4B5;
-  font-variant: small-caps;
 }
 
 li.characters + li.freeforms:before {
   content: "Additional Tags: ";
-  color: #FFE4B5;
-  font-variant: small-caps;
 }
 
 li.warnings + li.characters:before {
   content: "Characters: ";
-  color: #FFE4B5;
-  font-variant: small-caps;
 }
 
 li.warnings + li.freeforms:before {
   content: "Additional Tags: ";
-  color: #FFE4B5;
-  font-variant: small-caps;
 }
 
 li.relationships + li.freeforms:before {
   content: "Additional Tags: ";
-  color: #FFE4B5;
-  font-variant: small-caps;
 }
 
 .relationships .tag {
@@ -910,4 +912,14 @@ li.blurb .tags {
 p.kudos {
   background: none;
   padding: 0.5em;
+}
+
+#header {
+  background-size: 80%;
+  background-position-x: center;
+  background-position-y: top;
+}
+
+#header .heading {
+  height: 12em;
 }
