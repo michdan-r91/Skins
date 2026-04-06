@@ -57,14 +57,14 @@ li.relationships + li.freeforms:before {
 
 #header {
   background: url("https://i.ibb.co/8ggrpNqX/image.jpg");
-  background-size: 40%;
+  background-size: 60%;
   background-position-x: left;
   background-position-y: center;
   background-repeat: no-repeat;
 }
 
 #header .heading {
-  height: 14.5em;
+  height: 22em;
 }
 
 #main {
@@ -119,6 +119,7 @@ li.relationships + li.freeforms:before {
   background: #191919;
   border: 1px solid #DEB887;
   box-shadow: none;
+  font-family: Georgia, "Palatino Linotype", "Book Antiqua", "Times New Roman", serif;
 }
 
 #header .dropdown .menu a:hover,
@@ -129,6 +130,7 @@ li.relationships + li.freeforms:before {
 #header a.dropdown-toggle,
 #greeting .user > li:nth-of-type(3) a {
   color: #DEB887 !important;
+  font-family: Georgia, "Palatino Linotype", "Book Antiqua", "Times New Roman", serif;
 }
 
 #header .menu li a {
@@ -798,7 +800,8 @@ ul.tags li.warnings,
 ul.tags li.relationships,
 ul.tags li.characters,
 ul.tags li.freeforms {
-  float: left !important;
+  float: none !important;
+  display: inline-block !important;
 }
 
 li.warnings + li.relationships,
@@ -807,7 +810,7 @@ li.characters + li.freeforms,
 li.warnings + li.characters,
 li.warnings + li.freeforms,
 li.relationships + li.freeforms {
-  clear: left;
+  clear: none;
 }
 
 ul.tags li {
@@ -899,8 +902,9 @@ form dt {
 }
 
 li.blurb .tags {
-  max-height: 7.5em;
-  overflow-y: auto;
+  max-height: none;
+  overflow-y: visible;
+  overflow-x: visible;
 }
 
 p.kudos {
