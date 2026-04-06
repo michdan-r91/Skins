@@ -1,3 +1,54 @@
+body,
+#outer,
+#main,
+#footer,
+input,
+textarea,
+select,
+button,
+.actions a,
+.actions button,
+.actions input,
+label,
+.tag,
+#dashboard a,
+li,
+p,
+dd,
+dt,
+td,
+th {
+  font-family: Georgia, "Palatino Linotype", "Book Antiqua", "Times New Roman", serif;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading,
+#header h1.heading a::before,
+#footer .heading,
+.listbox > .heading,
+.favorite.module.odd h3.heading,
+.latest.news.module h3.heading span.title,
+.random.readings.module h3.heading span.title,
+.latest.messages.module h3.heading span.title,
+.social.module h3.heading,
+.bio.module h3.heading::before,
+ul.tags li.warnings:first-child:before,
+li.warnings + li.relationships:before,
+li.relationships + li.characters:before,
+li.characters + li.freeforms:before,
+li.warnings + li.characters:before,
+li.warnings + li.freeforms:before,
+li.relationships + li.freeforms:before {
+  font-family: "Snell Roundhand", "Apple Chancery", "URW Chancery L", "Lucida Handwriting", "Brush Script MT", cursive;
+  font-weight: normal;
+}
+
 #outer {
   background: url("https://media.archiveofourown.org/news/milestones/2024-08-seventeen-years-otw/2024-08-seventeen-years-otw-pattern.jpg");
   background-repeat: repeat;
@@ -489,7 +540,7 @@ form dl {
 }
 
 .index .skins .icon {
-  background: url("https://i.ibb.co/GQb3cytM/IM232540.jpg");
+  background: url("https://i.ibb.co/jv76hDKS/Whats-App-Image-2026-04-06-at-12-02-43-PM-1-preview-rev-1.png");
   background-size: 55px 55px;
   background-repeat: no-repeat;
 }
@@ -772,7 +823,7 @@ ul.tags li a.tag {
 }
 
 ul.tags li a:before {
-  content: "  🫧  ";
+  content: "  ✨  ";
   text-shadow: 0 0 4px #ffe8b4;
 }
 
