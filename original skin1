@@ -76,7 +76,7 @@ li.relationships + li.freeforms:before {
 }
 
 #main a:hover {
-  color: #001A9D;
+  color: #FFFFFF;
 }
 
 #header .primary {
@@ -161,7 +161,7 @@ li.relationships + li.freeforms:before {
 #footer li a,
 #footer button {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #DEB887;
 }
 
 .favorite.module.odd h3.heading,
@@ -348,7 +348,7 @@ textarea:focus,
 .autocomplete div.dropdown ul,
 .search [role="tooltip"] {
   background: #2a2a2a;
-  color: #001A9D;
+  color: #FFFFFF;
   padding-left: .5em;
 }
 
@@ -924,6 +924,7 @@ p.kudos {
   height: 12em;
 }
 
+/* Título de la obra y autor en café (color original), sin cambiar la fuente heredada de .heading */
 li.blurb h4.heading a,
 li.blurb h4.heading a:link,
 li.blurb h4.heading a:visited {
