@@ -50,13 +50,13 @@ li.relationships + li.freeforms:before {
 }
 
 #outer {
-  background: url("https://media.archiveofourown.org/news/milestones/2024-08-seventeen-years-otw/2024-08-seventeen-years-otw-pattern.jpg");
+  background: url("https://i.ibb.co/0VrD0qXY/Whats-App-Image-2026-09-16-at-10-29-08-PM.jpg");
   background-repeat: repeat;
   background-size: contain;
 }
 
 #header {
-  background: url("https://i.ibb.co/8ggrpNqX/image.jpg");
+  background: url("https://i.ibb.co/sdg4R4pY/Whats-App-Image-2026-09-16-at-10-34-34-PM.jpg");
   background-size: 60%;
   background-position-x: left;
   background-position-y: center;
@@ -68,15 +68,15 @@ li.relationships + li.freeforms:before {
 }
 
 #main {
-  color: #DEB887;
+  color: #FFFFFF;
 }
 
 #main a {
-  color: #FFE4B5;
+  color: #FFFFFF;
 }
 
 #main a:hover {
-  color: #ffe8b4;
+  color: #001A9D;
 }
 
 #header .primary {
@@ -99,7 +99,7 @@ li.relationships + li.freeforms:before {
 
 #greeting li {
   clear: left;
-  border-bottom: 1px dashed #ffe8b4;
+  border-bottom: 1px dashed #001A9D;
   margin-top: 0.3em !important;
 }
 
@@ -117,7 +117,7 @@ li.relationships + li.freeforms:before {
 
 #header .menu {
   background: #191919;
-  border: 1px solid #DEB887;
+  border: 1px solid #FFFFFF;
   box-shadow: none;
   font-family: Georgia, "Palatino Linotype", "Book Antiqua", "Times New Roman", serif;
 }
@@ -129,12 +129,12 @@ li.relationships + li.freeforms:before {
 
 #header a.dropdown-toggle,
 #greeting .user > li:nth-of-type(3) a {
-  color: #DEB887 !important;
+  color: #FFFFFF !important;
   font-family: Georgia, "Palatino Linotype", "Book Antiqua", "Times New Roman", serif;
 }
 
 #header .menu li a {
-  color: #DEB887 !important;
+  color: #FFFFFF !important;
 }
 
 #header .menu li {
@@ -148,20 +148,20 @@ li.relationships + li.freeforms:before {
 
 #footer {
   background: transparent;
-  border-top: 1px solid #ffe8b4;
-  box-shadow: 0 0 8px #ffe8b4;
+  border-top: 1px solid #001A9D;
+  box-shadow: 0 0 8px #001A9D;
 }
 
 #footer .heading {
   font-variant: small-caps;
-  color: #ffe8b4;
+  color: #001A9D;
 }
 
 #footer li,
 #footer li a,
 #footer button {
   text-decoration: none;
-  color: #DEB887;
+  color: #FFFFFF;
 }
 
 .favorite.module.odd h3.heading,
@@ -169,7 +169,7 @@ li.relationships + li.freeforms:before {
 .random.readings.module h3.heading span.title,
 .latest.messages.module h3.heading span.title,
 .social.module h3.heading {
-  color: #DEB887;
+  color: #FFFFFF;
   font-variant: small-caps;
 }
 
@@ -177,26 +177,26 @@ li.relationships + li.freeforms:before {
 .latest.news.module h3.heading,
 .latest.messages.module.odd h3.heading,
 .social.module h3.heading {
-  border-bottom: 2px solid #DEB887;
+  border-bottom: 2px solid #FFFFFF;
 }
 
 .splash .favorite li:nth-of-type(2n+1) a,
 .splash .favorite li:nth-of-type(2n+2) a {
   background: rgba(0, 0, 0, 0);
-  color: #DEB887;
-  border: 1px solid #ffe8b4;
-  box-shadow: 0 0 8px #ffe8b4;
+  color: #FFFFFF;
+  border: 1px solid #001A9D;
+  box-shadow: 0 0 8px #001A9D;
 }
 
 .splash .favorite li:nth-of-type(2n+1) a::before,
 .splash .favorite li:nth-of-type(2n+2) a::before {
-  content: "✨";
-  text-shadow: 0 0 4px #ffe8b4;
+  content: "";
+  text-shadow: 0 0 4px #001A9D;
 }
 
 .splash .favorite li:nth-of-type(2n+1) a:hover,
 .splash .favorite li:nth-of-type(2n+2) a:hover {
-  background: #DEB887;
+  background: #FFFFFF;
   color: #000 !important;
 }
 
@@ -220,7 +220,7 @@ li.relationships + li.freeforms:before {
 }
 
 .splash .favorite::after {
-  content: "🪐";
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -228,18 +228,18 @@ li.relationships + li.freeforms:before {
   text-align: center;
   font-size: 20px;
   color: transparent !important;
-  text-shadow: 0 0 1px #ffe8b4;
+  text-shadow: 0 0 1px #001A9D;
   opacity: 0.9;
   white-space: nowrap;
 }
 
 .news.index.group li.post.group {
   background: rgba(0, 0, 0, 0.5);
-  border: 1px solid #ffe8b4;
+  border: 1px solid #001A9D;
   border-radius: 8px;
   padding: .5em;
   margin-bottom: 2em;
-  box-shadow: 0 0 8px #ffe8b4;
+  box-shadow: 0 0 8px #001A9D;
 }
 
 .notice,
@@ -254,8 +254,8 @@ ul.notes,
 .LV_invalid {
   background: rgba(0, 0, 0, 0.5);
   border-radius: 8px;
-  border: 1px solid #ffe8b4;
-  box-shadow: 0 0 8px #ffe8b4;
+  border: 1px solid #001A9D;
+  box-shadow: 0 0 8px #001A9D;
   padding: 1em;
   color: #FFE4B5;
 }
@@ -271,9 +271,9 @@ button,
 .current,
 .actions label {
   background: rgba(0, 0, 0, 0.5);
-  border: 1px solid #ffe8b4;
+  border: 1px solid #001A9D;
   border-radius: 8px;
-  box-shadow: 0 0 8px #ffe8b4;
+  box-shadow: 0 0 8px #001A9D;
   color: #FFE4B5;
 }
 
@@ -291,8 +291,8 @@ label.action:hover,
 a.current,
 a:link.current,
 .current a:visited {
-  background: #DEB887;
-  border: 2px solid #DEB887;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
   box-shadow: none;
   color: #000 !important;
 }
@@ -304,9 +304,9 @@ fieldset fieldset dl dl,
 dd.hideme,
 form blockquote.userstuff {
   background: rgba(0, 0, 0, 0.5);
-  border: 1px solid #ffe8b4;
+  border: 1px solid #001A9D;
   border-radius: 8px;
-  box-shadow: 0 0 8px #ffe8b4;
+  box-shadow: 0 0 8px #001A9D;
 }
 
 fieldset.warnings,
@@ -335,7 +335,7 @@ input,
 textarea,
 select {
   background: rgba(0, 0, 0, 0.5);
-  color: #DEB887;
+  color: #FFFFFF;
   border: 2px solid #595959;
   border-radius: 8px;
   box-shadow: none;
@@ -348,13 +348,13 @@ textarea:focus,
 .autocomplete div.dropdown ul,
 .search [role="tooltip"] {
   background: #2a2a2a;
-  color: #ffe8b4;
+  color: #001A9D;
   padding-left: .5em;
 }
 
 .footnote,
 p.character_counter {
-  color: #DEB887;
+  color: #FFFFFF;
 }
 
 .autocomplete.dropdown {
@@ -362,7 +362,7 @@ p.character_counter {
 }
 
 .autocomplete.dropdown p.notice {
-  background: #DEB887;
+  background: #FFFFFF;
   padding: 0 !important;
 }
 
@@ -377,14 +377,14 @@ dt.notes {
 form.verbose legend,
 .verbose form legend {
   background: #191919;
-  border: 2px solid #DEB887;
+  border: 2px solid #FFFFFF;
   border-radius: 8px;
   box-shadow: none;
 }
 
 span.question {
-  background: #DEB887;
-  border: 1px solid #DEB887;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
   padding: 1px;
   color: #000;
   font-family: "Century Gothic", sans-serif;
@@ -404,7 +404,7 @@ input[type="checkbox"],
 
 input[type="checkbox"]:checked,
 .actions li label input[type="checkbox"]:checked {
-  background: #DEB887;
+  background: #FFFFFF;
   box-shadow: none;
 }
 
@@ -418,7 +418,7 @@ input[type=radio] {
 }
 
 input[type=radio]:checked {
-  background: #DEB887;
+  background: #FFFFFF;
 }
 
 .filters .indicator:before {
@@ -428,18 +428,18 @@ input[type=radio]:checked {
 }
 
 .filters [type="checkbox"]:checked + .indicator:before {
-  background: #DEB887;
+  background: #FFFFFF;
   background-image: none;
   color: #000;
 }
 
 .filters [type="radio"]:checked + .indicator:before {
-  background: #DEB887;
+  background: #FFFFFF;
   background-image: none;
 }
 
 .filters .exclude [type="checkbox"]:checked + .indicator:before {
-  background: #DEB887;
+  background: #FFFFFF;
   background-image: none;
   color: #000;
 }
@@ -457,7 +457,7 @@ dd.autocomplete li.input {
 .resp-sharing-button--bluesky,
 .resp-sharing-button--tumblr {
   background: #000000 !important;
-  border: 1px solid #DEB887 !important;
+  border: 1px solid #FFFFFF !important;
   border-radius: 8px;
   box-shadow: none !important;
 }
@@ -470,7 +470,7 @@ div.dynamic {
 }
 
 #bookmark-form.post.bookmark form fieldset h4.heading {
-  color: #DEB887;
+  color: #FFFFFF;
 }
 
 .dynamic form p.footnote {
@@ -479,13 +479,13 @@ div.dynamic {
 
 .bookmark .user {
   background: rgba(0, 0, 0, 0.5);
-  border: 1px solid #DEB887;
+  border: 1px solid #FFFFFF;
   box-shadow: none;
 }
 
 .reading h4.viewed {
   background: #191919;
-  border: 1px solid #DEB887;
+  border: 1px solid #FFFFFF;
   border-radius: 8px;
   padding: .5em;
   margin: .5em;
@@ -509,9 +509,9 @@ dl.subscription.index.group {
 dl.meta,
 form dl {
   background: rgba(0, 0, 0, 0.4);
-  border: 1px solid #ffe8b4;
+  border: 1px solid #001A9D;
   border-radius: 8px;
-  box-shadow: 0 0 8px #ffe8b4;
+  box-shadow: 0 0 8px #001A9D;
 }
 
 .wrapper {
@@ -524,7 +524,7 @@ form dl {
   margin-bottom: 2em;
   padding: 1em;
   width: 97%;
-  border: 2px solid #DEB887;
+  border: 2px solid #FFFFFF;
   border-radius: 8px;
   box-shadow: none;
   background: #000000;
@@ -555,7 +555,7 @@ form dl {
 
 .comment div.icon {
   background: #000000;
-  border-bottom: 5px solid #DEB887;
+  border-bottom: 5px solid #FFFFFF;
   border-radius: 8px 0px 0px 0px;
   box-shadow: none;
 }
@@ -571,9 +571,9 @@ div.comment {
 
 li.comment {
   background: rgba(0, 0, 0, 0.5);
-  border: 1px solid #ffe8b4;
+  border: 1px solid #001A9D;
   border-radius: 8px;
-  box-shadow: 0 0 8px #ffe8b4;
+  box-shadow: 0 0 8px #001A9D;
   margin: 1em;
 }
 
@@ -598,15 +598,15 @@ ol.comment.index.group .unread {
 }
 
 span.unread {
-  border: 1px solid #DEB887;
+  border: 1px solid #FFFFFF;
   border-radius: 8px;
-  background: #DEB887 !important;
+  background: #FFFFFF !important;
   color: #000 !important;
   box-shadow: none;
 }
 
 .draft {
-  border: 2px dashed #DEB887;
+  border: 2px dashed #FFFFFF;
   background: transparent;
 }
 
@@ -674,10 +674,10 @@ table {
 
 thead {
   background: #000000;
-  color: #DEB887;
+  color: #FFFFFF;
   font-weight: bold;
   font-size: 120%;
-  border-bottom: 2px solid #DEB887;
+  border-bottom: 2px solid #FFFFFF;
 }
 
 th,
@@ -687,12 +687,12 @@ td {
 }
 
 span.requested.offered {
-  color: #DEB887;
+  color: #FFFFFF;
   background: #000000;
 }
 
 span.requested {
-  color: #DEB887;
+  color: #FFFFFF;
 }
 
 div.preface .module::after {
@@ -710,27 +710,27 @@ div.preface .module::after {
 #dashboard.own,
 .dashboard .own {
   background: rgba(0, 0, 0, 0.5);
-  border: 1px solid #ffe8b4;
-  box-shadow: 0 0 8px #ffe8b4;
+  border: 1px solid #001A9D;
+  box-shadow: 0 0 8px #001A9D;
 }
 
 #dashboard a {
-  color: #DEB887;
+  color: #FFFFFF;
   border: 1px solid transparent;
 }
 
 #dashboard .current {
-  background: #DEB887;
+  background: #FFFFFF;
   color: #000;
-  border: 1px solid #DEB887;
+  border: 1px solid #FFFFFF;
   border-radius: 8px;
   box-shadow: none;
 }
 
 #dashboard a:hover {
-  background: #DEB887;
+  background: #FFFFFF;
   color: #000;
-  border: 1px solid #DEB887;
+  border: 1px solid #FFFFFF;
 }
 
 #dashboard ul {
@@ -740,8 +740,8 @@ div.preface .module::after {
 .listbox,
 fieldset fieldset.listbox {
   background: rgba(0, 0, 0, 0.5);
-  border: 1px solid #ffe8b4;
-  box-shadow: 0 0 8px #ffe8b4;
+  border: 1px solid #001A9D;
+  box-shadow: 0 0 8px #001A9D;
 }
 
 .listbox .index {
@@ -751,14 +751,14 @@ fieldset fieldset.listbox {
 
 .listbox > .heading {
   font-variant: small-caps;
-  color: #DEB887;
+  color: #FFFFFF;
 }
 
 li.blurb {
   background: rgba(0, 0, 0, 0.5);
-  border: 1px solid #ffe8b4;
+  border: 1px solid #001A9D;
   border-radius: 8px;
-  box-shadow: 0 0 8px #ffe8b4;
+  box-shadow: 0 0 8px #001A9D;
   margin-bottom: 2em;
 }
 
@@ -772,7 +772,7 @@ li.added.tag {
   border-radius: 0;
   border: none;
   box-shadow: none;
-  color: #DEB887;
+  color: #FFFFFF;
   background: transparent;
 }
 
@@ -825,8 +825,8 @@ ul.tags li a.tag {
 }
 
 ul.tags li a:before {
-  content: "  ✨  ";
-  text-shadow: 0 0 4px #ffe8b4;
+  content: "";
+  text-shadow: 0 0 4px #001A9D;
 }
 
 ul.tags li.warnings:first-child:before,
@@ -838,12 +838,12 @@ li.warnings + li.freeforms:before,
 li.relationships + li.freeforms:before {
   display: inline-block;
   background: rgba(0, 0, 0, 0.5);
-  border: 1px solid #ffe8b4;
+  border: 1px solid #001A9D;
   border-radius: 8px;
-  box-shadow: 0 0 8px #ffe8b4;
+  box-shadow: 0 0 8px #001A9D;
   padding: 2px 8px;
   margin-right: 4px;
-  color: #FFE4B5;
+  color: #FFFFFF;
   font-variant: small-caps;
 }
 
@@ -883,12 +883,12 @@ li.relationships + li.freeforms:before {
   margin-top: 2em;
   padding: 1.5em;
   background: rgba(0, 0, 0, 0.5);
-  color: #DEB887;
+  color: #FFFFFF;
 }
 
 .filters .expander {
-  color: #DEB887;
-  border: 1px solid #DEB887;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
   border-radius: 8px;
   margin-bottom: .5em;
   box-shadow: none;
@@ -915,11 +915,21 @@ p.kudos {
 }
 
 #header {
-  background-size: 70%;
+  background-size: 90%;
   background-position-x: center;
   background-position-y: top;
 }
 
 #header .heading {
   height: 12em;
+}
+
+li.blurb h4.heading a,
+li.blurb h4.heading a:link,
+li.blurb h4.heading a:visited {
+  color: #DEB887 !important;
+}
+
+li.blurb h4.heading a:hover {
+  color: #FFE8B4 !important;
 }
