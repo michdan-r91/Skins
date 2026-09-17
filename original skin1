@@ -93,8 +93,10 @@ li.relationships + li.freeforms:before {
 #header h1.heading a::before {
   content: "𝒶𝓇𝒸𝒽𝒾𝓋𝑒 ℴ𝒻 ℴ𝓊𝓇 ℴ𝓌𝓃 ";
   color: transparent !important;
-  text-shadow: 0 0 0 #ffe8b4;
+  text-shadow: 0 0 0 #84b6f4;
   font-size: 1.5em;
+  display: block;
+  margin-top: 8em;
 }
 
 #greeting li {
@@ -154,7 +156,7 @@ li.relationships + li.freeforms:before {
 
 #footer .heading {
   font-variant: small-caps;
-  color: #001A9D;
+  color: #DEB887;
 }
 
 #footer li,
@@ -921,10 +923,9 @@ p.kudos {
 }
 
 #header .heading {
-  height: 12em;
+  height: 10em;
 }
 
-/* Título de la obra y autor en café (color original), sin cambiar la fuente heredada de .heading */
 li.blurb h4.heading a,
 li.blurb h4.heading a:link,
 li.blurb h4.heading a:visited {
